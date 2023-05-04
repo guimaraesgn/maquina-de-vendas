@@ -8,3 +8,6 @@ O projeto apresenta:
 - Sensor no momento que a maquina é ligada;
 - Nove tipos de guloseimas;
 - Gaveta.
+
+![image](https://user-images.githubusercontent.com/82847046/236292463-fc817835-8715-4e54-97cd-00c29b87d9f2.png)
+
