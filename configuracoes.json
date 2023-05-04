@@ -1,0 +1,75 @@
+{
+    "name": "Máquina de Venda",
+    "width": 700,
+    "height": 550,
+    "buttons": [
+        {"x": 400, "y": 100, "name": "Ligar", "pin": 8},
+        {"x": 500, "y": 100, "name": "Desligar", "pin": 9}
+    ],
+    "leds": [
+        {"x": 300, "y": 100,  "name": "Ligada", "pin": 10},
+        {"x": 300, "y": 200,  "name": "1) Coca Cola", "pin": 11},
+        {"x": 400, "y": 200,  "name": "2) Pepsi", "pin": 12},
+        {"x": 500, "y": 200,  "name": "3) Batata Ruffles", "pin": 13},
+        {"x": 300, "y": 260,  "name": "4) Mentos", "pin": 21},
+        {"x": 400, "y": 260,  "name": "5) Tic Tac", "pin": 22},
+        {"x": 500, "y": 260,  "name": "6) Bubbaloo", "pin": 23},
+        {"x": 300, "y": 320,  "name": "7) Baconzitos", "pin": 31},
+        {"x": 400, "y": 320,  "name": "8) Pipoca", "pin": 32},
+        {"x": 500, "y": 320,  "name": "9) Cebolitos", "pin": 33}
+    ],
+    "lcds": [
+        {"x": 30, "y": 100, "name": "Visor", "pins":[2, 3, 4, 5, 6, 7], "columns": 5, "lines": 1}
+    ],
+    "motion_sensors": [
+        {"x": 400, "y": 400, "name": "Gaveta", "pin": 51, "detection_radius": 50, "delay_duration": 1, "block_duration": 3 }
+    ],
+    "infrared_receiver": {
+        "x": 30,
+        "y": 200, 
+        "name": "Teclado",
+        "config": "default",
+        "remote_control": {
+            "width": 100,
+            "height": 300,
+            "color": "black",
+            "key_color": "white",
+            "key_width": 3,
+            "key_height": 1,
+            "key_rows":[
+                {
+                    "padding_top": 10,
+                    "buttons": [
+                        {"name": "1"},
+                        {"name": "2"},
+                        {"name": "3"}
+                    ]
+                },
+                {
+                    "padding_top": 20,
+                    "buttons": [
+                        {"name": "4"},
+                        {"name": "5"},
+                        {"name": "6"}
+                    ]
+                },
+                {
+                    "padding_top": 20,
+                    "buttons": [
+                        {"name": "7"},
+                        {"name": "8"},
+                        {"name": "9"}
+                    ]
+                },
+                {
+                    "padding_top": 20,
+                    "buttons": [
+                        {"name": "CLEAR"},
+                        null,
+                        {"name": "OK"}
+                    ]
+                }
+            ]
+        }
+    }
+}

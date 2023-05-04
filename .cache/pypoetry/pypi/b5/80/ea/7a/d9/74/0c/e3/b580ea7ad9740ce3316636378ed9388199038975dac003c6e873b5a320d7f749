@@ -1,0 +1,1 @@
+9999999999{"name": "colorzero", "version": "2.0", "summary": "Yet another Python color library", "platform": "", "requires_dist": ["setuptools", "pkginfo ; extra == 'doc'", "sphinx ; extra == 'doc'", "sphinx-rtd-theme ; extra == 'doc'", "pytest ; extra == 'test'", "pytest-cov ; extra == 'test'"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

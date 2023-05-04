@@ -1,0 +1,1 @@
+9999999999{"name": "data", "version": "0.4", "summary": "Work with unicode/non-unicode data from files or strings uniformly.", "platform": "UNKNOWN", "requires_dist": ["six", "decorator", "funcsigs"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}
